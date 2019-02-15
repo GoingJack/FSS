@@ -1,3 +1,4 @@
 ﻿  源.cpp
-c:\users\高杰\desktop\all\fss\fss_1_0\测试项目\源.cpp(34): warning C4326: “main”的返回类型应为“int”而非“void”
-  测试项目.vcxproj -> C:\Users\高杰\Desktop\ALL\FSS\FSS_1_0\Debug\测试项目.exe
+c:\users\高杰\desktop\all\fss\fss_1_0\测试项目\源.cpp(37): warning C4326: “main”的返回类型应为“int”而非“void”
+c:\users\高杰\desktop\all\fss\fss_1_0\测试项目\源.cpp(48): error C2660: “GetKeyPosition”: 函数不接受 2 个参数
+  c:\users\高杰\desktop\all\fss\fss_1_0\测试项目\源.cpp(6): note: 参见“GetKeyPosition”的声明

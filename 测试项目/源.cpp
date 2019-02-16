@@ -45,7 +45,7 @@ void main()
 	char *name = NULL;
 	name = (char*)malloc(sizeof(char)*1024);
 	sprintf(name, "123√ÿ√‹123");
-	position = GetKeyPosition(name, "√ÿ√‹");
+	//position = GetKeyPosition(name, "√ÿ√‹");
 
 
 	printf("hello...\n");

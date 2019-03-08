@@ -1,58 +1,87 @@
 ﻿#include<iostream>
-#include <WINSOCK2.H>
-#pragma comment(lib,"ws2_32.lib")
-
-bool CheckNetwork()
+#include <fstream>
+#include <windows.h>
+using namespace std;
+struct FileType
 {
-	WORD wVersionRequested;
-	WSADATA wsaData;
-	int err;
+	char name[100];
+	char Summary[100];
+};
 
-	wVersionRequested = MAKEWORD(1, 1);    //初始化Socket动态连接库,请求1.1版本的winsocket库
+int file()
+{
+	char data[100];
 
-	err = WSAStartup(wVersionRequested, &wsaData);
-	if (err != 0) {
-		return FALSE;
-	}
+	// 以写模式打开文件
+	ofstream outfile;
+	outfile.open("afile.dat");
 
-	if (LOBYTE(wsaData.wVersion) != 1 ||   //判断请求的winsocket是不是1.1的版本
-		HIBYTE(wsaData.wVersion) != 1) {
-		WSACleanup();			//清盘
-		return FALSE;					//终止对winsocket使用
-	}
+	cout << "Writing to the file" << endl;
+	cout << "Enter your name: ";
+	cin.getline(data, 100);
 
-	char http[60] = "www.baidu.com";			//访问谷歌网页
-	SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);//建立socket
-	if (sock == INVALID_SOCKET)
-		return FALSE;
-	sockaddr_in hostadd;
-	hostent* host = gethostbyname(http);//取得主机的IP地址
-	if (host == NULL)
-		return FALSE;
-	memcpy(&hostadd, host->h_addr, sizeof(hostadd));//将返回的IP信息Copy到地址结构
-	hostadd.sin_family = AF_INET;
-	hostadd.sin_port = htons(80);
+	// 向文件写入用户输入的数据
+	outfile << data << endl;
 
-	int time = 1000;	//超时时间
-	setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, (char*)&time, sizeof(time));
+	cout << "Enter your age: ";
+	cin >> data;
+	cin.ignore();
 
+	// 再次向文件写入用户输入的数据
+	outfile << data << endl;
 
-	if (connect(sock, (sockaddr*)&hostadd, sizeof(hostadd)) == SOCKET_ERROR)//连接请求
-		return FALSE;
+	// 关闭打开的文件
+	outfile.close();
 
-	closesocket(sock);
-	WSACleanup();
-	return TRUE;
+	// 以读模式打开文件
+	ifstream infile;
+	infile.open("afile.dat");
+
+	cout << "Reading from the file" << endl;
+	infile >> data;
+
+	// 在屏幕上写入数据
+	cout << data << endl;
+
+	// 再次从文件读取数据，并显示它
+	infile >> data;
+	cout << data << endl;
+
+	// 关闭打开的文件
+	infile.close();
+
+	return 0;
 }
-
-
 
 int main()
 {
-	while (1)
+	//file();
+	FileType s_File[3];
+	sprintf(s_File[0].name, "C:/Desktop/hello.docx");
+	sprintf(s_File[0].Summary, "这里有秘密呦吼");
+	sprintf(s_File[1].name, "C:/Desktop/world.docx");
+	sprintf(s_File[1].Summary, "秘密即使没有");
+	sprintf(s_File[2].name, "C:/Desktop/你好.docx");
+	sprintf(s_File[2].Summary, "没有秘密的文件");
+	char data[100];
+	sprintf(data, "abcdefg");
+	SYSTEMTIME sys;
+	GetLocalTime(&sys);
+	char *LogFilename = (char*)malloc(sizeof(char) * 30);
+	sprintf(LogFilename, "%4d-%02d-%02d-%02d-%2d-%2d.log", sys.wYear, sys.wMonth, sys.wDay, sys.wHour, sys.wMinute, sys.wSecond);
+
+	ofstream outfile;
+	outfile.open(LogFilename);
+
+	//outfile << data << endl;
+	for (int i = 0; i < 3; i++)
 	{
-		int a = CheckNetwork();
+		char tmp[1024] = { 0 };
+		sprintf(tmp, "%s------%s", s_File[i].name, s_File[i].Summary);
+		outfile << tmp << endl;
 	}
+	outfile.close();
+	system("pause");
 	return 0;
 }
 

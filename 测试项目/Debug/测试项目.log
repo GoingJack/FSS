@@ -1,1 +1,206 @@
-﻿  测试项目.vcxproj -> C:\Users\GoingJack\Desktop\ALL\FSS\FSS_1_0\Debug\测试项目.exe
+﻿cl : 命令行 warning D9025: 正在重写“/sdl”(用“/GS-”)
+  源.cpp
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(65): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(65): error C2146: 语法错误: 缺少“;”(在标识符“HINTERNET”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(66): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(66): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(66): error C2378: “HINTERNET”: 重定义；符号不能由 typedef 重载
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(65): note: 参见“HINTERNET”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(68): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(68): error C2146: 语法错误: 缺少“;”(在标识符“INTERNET_PORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(69): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(69): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(69): error C2378: “INTERNET_PORT”: 重定义；符号不能由 typedef 重载
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(68): note: 参见“INTERNET_PORT”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(322): error C3646: “dwResult”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(322): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(328): error C3646: “dwError”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(328): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(337): error C3646: “Socket”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(337): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(338): error C3646: “SourcePort”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(338): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(339): error C3646: “DestPort”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(339): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(340): error C3646: “Flags”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(340): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(364): error C3646: “dwAccessType”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(364): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(370): error C3646: “lpszProxy”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(370): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(376): error C3646: “lpszProxyBypass”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(376): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(388): error C3646: “dwOption”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(388): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(390): error C3646: “dwValue”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(390): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(391): error C3646: “pszValue”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(391): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(392): error C3646: “ftValue”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(392): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(396): error C3646: “dwOption”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(396): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(398): error C3646: “dwValue”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(398): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(399): error C3646: “pszValue”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(399): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(400): error C3646: “ftValue”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(400): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(412): error C3646: “dwSize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(412): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(413): error C3646: “pszConnection”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(413): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(414): error C3646: “dwOptionCount”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(414): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(415): error C3646: “dwOptionError”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(415): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(420): error C3646: “dwSize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(420): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(421): error C3646: “pszConnection”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(421): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(422): error C3646: “dwOptionCount”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(422): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(423): error C3646: “dwOptionError”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(423): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(474): error C3646: “dwMajorVersion”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(474): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(475): error C3646: “dwMinorVersion”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(475): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(483): error C3646: “dwMajorVersion”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(483): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(484): error C3646: “dwMinorVersion”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(484): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(498): error C3646: “dwConnectedState”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(498): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(505): error C3646: “dwFlags”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(505): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(544): error C3646: “dwStructSize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(544): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(545): error C3646: “lpszScheme”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(545): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(546): error C3646: “dwSchemeLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(546): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(548): error C3646: “lpszHostName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(548): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(549): error C3646: “dwHostNameLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(549): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(550): error C3646: “nPort”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(550): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(551): error C3646: “lpszUserName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(551): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(552): error C3646: “dwUserNameLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(552): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(553): error C3646: “lpszPassword”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(553): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(554): error C3646: “dwPasswordLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(554): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(555): error C3646: “lpszUrlPath”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(555): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(556): error C3646: “dwUrlPathLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(556): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(557): error C3646: “lpszExtraInfo”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(557): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(558): error C3646: “dwExtraInfoLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(558): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(561): error C3646: “dwStructSize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(561): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(562): error C3646: “lpszScheme”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(562): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(563): error C3646: “dwSchemeLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(563): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(565): error C3646: “lpszHostName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(565): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(566): error C3646: “dwHostNameLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(566): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(567): error C3646: “nPort”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(567): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(568): error C3646: “lpszUserName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(568): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(569): error C3646: “dwUserNameLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(569): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(570): error C3646: “lpszPassword”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(570): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(571): error C3646: “dwPasswordLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(571): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(572): error C3646: “lpszUrlPath”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(572): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(573): error C3646: “dwUrlPathLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(573): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(574): error C3646: “lpszExtraInfo”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(574): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(575): error C3646: “dwExtraInfoLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(575): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(602): error C3646: “ftExpiry”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(602): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(608): error C3646: “ftStart”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(608): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(615): error C3646: “lpszSubjectInfo”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(615): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(622): error C3646: “lpszIssuerInfo”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(622): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(629): error C3646: “lpszProtocolName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(629): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(636): error C3646: “lpszSignatureAlgName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(636): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(643): error C3646: “lpszEncryptionAlgName”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(643): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(649): error C3646: “dwKeySize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(649): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(661): error C3646: “dwStructSize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(661): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(663): error C3646: “lpcszHeader”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(663): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(664): error C3646: “dwHeadersLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(664): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(665): error C3646: “dwHeadersTotal”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(665): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(667): error C3646: “dwBufferLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(667): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(668): error C3646: “dwBufferTotal”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(668): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(669): error C3646: “dwOffsetLow”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(669): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(670): error C3646: “dwOffsetHigh”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(670): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(673): error C3646: “dwStructSize”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(673): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(675): error C3646: “lpcszHeader”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(675): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(676): error C3646: “dwHeadersLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(676): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(677): error C3646: “dwHeadersTotal”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(677): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(679): error C3646: “dwBufferLength”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(679): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(680): error C3646: “dwBufferTotal”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(680): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(681): error C3646: “dwOffsetLow”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(681): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(682): error C3646: “dwOffsetHigh”: 未知重写说明符
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(682): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): error C2146: 语法错误: 缺少“;”(在标识符“DECLSPEC_IMPORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(703): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(703): error C2086: “int EXTERN_C”: 重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): note: 参见“EXTERN_C”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(703): error C2146: 语法错误: 缺少“;”(在标识符“DECLSPEC_IMPORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(716): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(716): error C2086: “int EXTERN_C”: 重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): note: 参见“EXTERN_C”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(716): error C2146: 语法错误: 缺少“;”(在标识符“DECLSPEC_IMPORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(732): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(732): error C2086: “int EXTERN_C”: 重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): note: 参见“EXTERN_C”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(732): error C2146: 语法错误: 缺少“;”(在标识符“DECLSPEC_IMPORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(738): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(738): error C2086: “int EXTERN_C”: 重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): note: 参见“EXTERN_C”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(738): error C2146: 语法错误: 缺少“;”(在标识符“DECLSPEC_IMPORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(750): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(750): error C2086: “int EXTERN_C”: 重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): note: 参见“EXTERN_C”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(750): error C2146: 语法错误: 缺少“;”(在标识符“DECLSPEC_IMPORT”的前面)
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(759): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(759): error C2086: “int EXTERN_C”: 重定义
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(696): note: 参见“EXTERN_C”的声明
+c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\wininet.h(759): fatal error C1003: 错误计数超过 100；正在停止编译

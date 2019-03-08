@@ -218,6 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\searchFile.ico" />
+    <Image Include="res\searchFile1.ico" />
     <Image Include="res\searchFileDoc.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
